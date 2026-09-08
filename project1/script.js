@@ -9,7 +9,7 @@ increaseBtn.addEventListener("click", ()=> {
     count++;
     countNumber.textContent = count;
 });
-decreaseBtn.addEventListener("click", ()=> {
+decreaseBtn.addEventListener("click" , ()=> {
     if(count > 0){
         count--;
     countNumber.textContent = count;

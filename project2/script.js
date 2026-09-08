@@ -44,5 +44,5 @@ addBtn.addEventListener("click", function(){
     taskList.appendChild(li);
 
     // clear input
-    taskInput.value = "";
+    taskInput.value = " ";
 });
